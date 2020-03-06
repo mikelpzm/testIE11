@@ -1,0 +1,2729 @@
+/* ---- Estilos - Modificacion UDA ---- */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: Arial,Helvetica,sans-serif !important;
+	font-size: 0.8em;
+	color: #666666;
+	letter-spacing: 0.01em;
+	line-height: 1;
+}	
+a {
+    color: #008abb;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.clr{
+	clear: both;	
+}
+
+.clrEspaciado {
+    clear: both;
+    height: 0.2em;
+}
+a:hover {
+    color: #4A4647;
+    text-decoration: underline;
+}
+/*estilos autocomplet*/
+.ui-autocomplete a{
+	color: #000000 !important;
+	}
+.ui-autocomplete a:hover{
+	color: #000000 !important;
+	}
+.ui-autocomplete { 
+	-moz-border-radius-topleft: 0px !important; 
+	-webkit-border-top-left-radius: 0px !important; 
+	-khtml-border-top-left-radius: 0px !important; 
+	border-top-left-radius: 0px !important;
+	 }
+.ui-autocomplete ul
+{
+	border: 0 !important;
+	}
+
+.y41b-desconexion a{
+    color: #008abb;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.y41b-desconexion a:hover {
+    color: #4A4647;
+    text-decoration: underline !important;
+}
+td a:hover {
+    color: #000000 !important;
+    text-decoration: underline !important;
+}
+li a:hover {
+    color: #ffffff ;	
+    text-decoration: underline;
+}
+#y41bComunicacionDetalleFicheros li a:hover {
+    color: #000000 ;	
+    text-decoration: underline;
+}
+p {
+    border: 0 none;
+    font-style: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+.contenedor_login label {
+    /*float: left;
+    font-weight: bold;
+    margin-left: 5em;
+    padding-top: 0	px;
+    text-align: right;
+    width: 70px;*/
+}
+fieldset {
+	padding:0.8em;	
+	border:0px;
+}
+
+.titulo_fieldset{
+	font-weight:bold;
+	/*margin-bottom:1em;*/	
+}
+
+.formulario_linea_label{
+	margin-right: 0.1em;
+	text-align:right;		
+}
+
+.formulario_linea_input{
+	margin-right:0.4em;		
+}
+
+#rdSexoV{
+	margin-right:0.4em;	
+}
+
+#rdSexoM{
+	margin-right:0.4em;
+}
+
+.formulario_linea_label_sexo { 
+	float: left;
+	width: 3em;
+	margin-left: 0.4em;	
+}
+.formulario_bloque {
+	float:left;
+	/*border:1px solid black;*/
+	padding-left: 0em;
+	padding-right:0em !important;	
+	
+}
+.formulario_linea_sep {
+	clear:both;
+	padding-top:0.5em;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+	font-weight:bold;	
+	color: #ffffff;
+}
+label
+{
+ 	color: #666666;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em; 
+	}
+input
+{
+	/* float: right; */
+  	/*text-align: left;*
+  	/ *position: relative;*/
+  	/* width: 50%; */
+
+	}
+input.disabled { background-color: #D3D3D3; }
+
+input.inputUpdate{
+	width:18em;	
+}
+input.longIinputUpdate{
+	width:35em;	
+}
+input.longIinput50{
+	width:35em;	
+}
+textarea.longIinputmas50,
+input.longIinputmas50{
+	width:50em;	
+}
+input.longIinput17{
+	width:17em;	
+}
+input.longIinput35{
+	width:30em;	
+}
+input.longIinput25{
+	width:25em;	
+}
+input.longIinput20{
+	width:20em;	
+}
+input.longIinput40{
+	width:40em;	
+}
+
+input.longIinput18{
+	width:18em;	
+}
+input.longIinput13{
+	width:13em;	
+}
+input.longIinput6{
+	width:6em;	
+}
+input.longIinput15{
+	width:15em;	
+}
+input.longIinput10{
+	width:10em;	
+}
+input.longIinput35dos{
+	width:35em;	
+}
+input.shortInputUpdate{
+	text-align:right;
+	width:7em;	
+}
+input.longIinput{
+	width:20em;	
+}
+input.longIinput25{
+	width:25em;	
+}
+input.longIinput29{
+	width:29em;	
+}
+input.longIinput62{
+	width:62em;	
+}
+
+input.longIinput24{
+	width:24em;	
+}
+input.longIinputmas80{
+	width:80em;	
+}
+input.longIinput7{
+	width:7em;	
+}
+input.longIinput1{
+   width: 1em;	
+}
+input.longIinput52{
+	width:52em;	
+	
+}input.longIinput2{
+	width:2em;	
+}
+
+input.y41b-codigopostal{
+	width:5em;	
+}
+.y41b-textLargo
+{
+	width: 25em;
+	}
+.y41b-textDescripcion
+{
+	width: 35em;
+	}
+.y41b-textMedio
+{
+	width: 18em;
+}
+.y41b-textMedio14
+{
+	width: 14em;
+}
+.y41b-label
+{
+	float: left;
+  	margin-left: 5em;
+  	text-align: right;
+	}
+.y41b-label-login
+{
+	float: left;
+    margin-left: 4em;
+    text-align: right;
+}
+
+.y41b-obligatorio
+{
+	float: right;
+  	margin-left: 5em;
+  	text-align: right;
+  	font-style: italic;
+  	margin-bottom: 0.5em;
+	}
+.y41b-campo_obligatorio
+{
+	background-color: #E1F0F5;
+	border: 1px solid #64809C;
+	}
+.
+{
+	float: right;
+  	text-align: left;
+  	position: relative;
+  	wdth: 50%;
+	}
+div.y41b-row {
+  clear: both;
+  padding-top: 1em;
+  width: 99%;
+  padding: 0.5em;
+  }
+ div.y41b-row_login {
+  clear: both;
+  padding-top: 1em;
+/*   width: 99%; */
+  padding: 0.6em;
+
+  }
+div.y41b-row_login_mensaje 
+{
+	 height: 15px !important;;	
+  	padding-left: 0em;
+  	width: 100%;
+  	text-align: center;
+  
+  }
+ div.y41b-row_login_mensaje_cambio {
+  height: 15px !important;;	
+  padding-left: 0em;
+  width: 100%;
+  text-align: center;
+  }
+div.y41b-row_bloque {
+  clear: both;
+  padding-top: 1em;
+  width: 98%;
+  padding: 0.5em;
+  height:200px;
+  overflow:auto;
+  }
+/** ESCRITORIO **/    
+div.y41b-row_bloque_escritorio {
+  clear: both;
+  padding-top: 1em;
+  width: 100%;
+  padding: 0.5em;
+  /*height:410px;*/
+  height:auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+  /*
+  padding-right: 5px;
+  visibility: visible;
+  border: thin solid white;
+  background-color: #336699;
+  scrollbar-face-color: #336699;
+  scrollbar-3dlight-color: #336699;
+  scrollbar-base-color: #336699;
+  scrollbar-track-color: #336699;
+  scrollbar-darkshadow-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #fff;
+  scrollbar-highlight-color: #fff;
+  */
+
+  }
+
+div.y41b-escritorio_titulo_seccion {
+  	color: #008abb;
+    font-weight:bold;
+  
+}
+
+div.y41b-row_escritorio_fecha {
+  font-style:italic;
+  font-weight:bold;
+  float:left;
+}
+  
+a.y41b-row_escritorio_url {
+  color: #000000;
+  text-decoration: underlined;
+  font-size:1em;
+  font-style:normal;
+  font-weight:bold;
+  }     
+/** FIN DE ESCRITORIO **/    
+div.y41b-derecha {
+	float: right;
+	padding: 3px;
+  }
+div.y41b-izquierda {
+	float: left;
+	padding: 3px;
+  }
+div.y41b-contenedorTablas {
+	 padding: 4px;
+	 overflow: hidden;
+	 width: 100%;
+  }
+  
+div.y41b-row-botones {
+  clear: both;
+  padding-top: 1em;
+  width: 99%;
+  /* padding: 0.5em; */
+  text-align: right;
+  }
+div.y41b-row_combos {
+	float: left;
+	/*clear: both;*/
+  }
+div.y41b-row_combos ul {
+	float: left;
+	list-style: none;
+	/*padding-left: 5px;*/
+  }
+div.y41b-row_combos ul li {
+	float: left;
+	/* padding: 2px; */
+  }
+.ui-selectmenu-menu li 
+{
+	 float: none !important;
+  }
+ div.y41b-row_border {
+  clear: both;
+  padding-top: 1em;
+  /* width: 99%; */
+  margin-bottom: 1em;
+  border: 1px #0282AD solid;
+  overflow: hidden;
+  margin-top: 1em; 
+  padding-bottom: 0.5em;
+  
+  -moz-border-radius-topleft: 4px; 
+  -webkit-border-top-left-radius: 4px; 
+  -khtml-border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+   
+   moz-border-radius-topright: 4px;
+   -webkit-border-top-right-radius: 4px; 
+   -khtml-border-top-right-radius: 4px; 
+   border-top-right-radius: 4px;
+    
+   -moz-border-radius-bottomleft: 4px;
+   -webkit-border-bottom-left-radius: 4px; 
+   -khtml-border-bottom-left-radius: 4px; 
+   border-bottom-left-radius: 4px;
+   
+   -moz-border-radius-bottomright: 4px; 
+   -webkit-border-bottom-right-radius: 4px; 
+   -khtml-border-bottom-right-radius: 4px; 
+   border-bottom-right-radius: 4px;
+  }
+  
+div.y41b-row_borderInterior {
+  padding: 1em 1em 2.5em 1em;
+  margin: 0.1em 1em;
+  border: 1px #0282AD solid;
+  -moz-border-radius-topleft: 4px; 
+  -webkit-border-top-left-radius: 4px; 
+  -khtml-border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+   
+   moz-border-radius-topright: 4px;
+   -webkit-border-top-right-radius: 4px; 
+   -khtml-border-top-right-radius: 4px; 
+   border-top-right-radius: 4px;
+    
+   -moz-border-radius-bottomleft: 4px;
+   -webkit-border-bottom-left-radius: 4px; 
+   -khtml-border-bottom-left-radius: 4px; 
+   border-bottom-left-radius: 4px;
+   
+   -moz-border-radius-bottomright: 4px; 
+   -webkit-border-bottom-right-radius: 4px; 
+   -khtml-border-bottom-right-radius: 4px; 
+   border-bottom-right-radius: 4px;
+  }
+   div.y41b-row_border_sin {
+  clear: both;
+  padding-top: 1em;
+  /* width: 99%; */
+  margin-bottom: 1em;
+  border: 0px #0282AD solid;
+  overflow: hidden;
+  /* margin-top: 1em; */
+  padding-bottom: 0.5em;
+  
+  -moz-border-radius-topleft: 4px; 
+  -webkit-border-top-left-radius: 4px; 
+  -khtml-border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+   
+   moz-border-radius-topright: 4px;
+   -webkit-border-top-right-radius: 4px; 
+   -khtml-border-top-right-radius: 4px; 
+   border-top-right-radius: 4px;
+    
+   -moz-border-radius-bottomleft: 4px;
+   -webkit-border-bottom-left-radius: 4px; 
+   -khtml-border-bottom-left-radius: 4px; 
+   border-bottom-left-radius: 4px;
+   
+   -moz-border-radius-bottomright: 4px; 
+   -webkit-border-bottom-right-radius: 4px; 
+   -khtml-border-bottom-right-radius: 4px; 
+   border-bottom-right-radius: 4px;
+  }
+ div.y41b-row_border_padre {
+  clear: both;
+  padding-top: 1em;
+  width: 99%;
+  margin-bottom: 1em;
+  border: 0px #0282AD solid;
+  overflow: hidden;
+  
+  -moz-border-radius-topleft: 4px; 
+  -webkit-border-top-left-radius: 4px; 
+  -khtml-border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+   
+   moz-border-radius-topright: 4px;
+   -webkit-border-top-right-radius: 4px; 
+   -khtml-border-top-right-radius: 4px; 
+   border-top-right-radius: 4px;
+    
+   -moz-border-radius-bottomleft: 4px;
+   -webkit-border-bottom-left-radius: 4px; 
+   -khtml-border-bottom-left-radius: 4px; 
+   border-bottom-left-radius: 4px;
+   
+   -moz-border-radius-bottomright: 4px; 
+   -webkit-border-bottom-right-radius: 4px; 
+   -khtml-border-bottom-right-radius: 4px; 
+   border-bottom-right-radius: 4px;
+  } 
+  
+div.y41b-row_borderArbol {
+  border: 1px dotted gray;
+ }
+   
+.y41b-input input
+{
+	width: 12em;
+	}
+/* BORDER FORMULARIO PESTAÑAS */
+
+.ui-tabs .ui-tabs-panel{
+	border-width:0px;	
+}
+
+/*	las pestañas en mayúsculas*/
+.rup-tabs_title{
+	text-transform: uppercase;  
+}
+/* -- BOTONES VERDES FORMULARIO --  */
+
+.y41b-generico_buttons{
+   background: url("../../y41b/images/ui-boton.png") repeat-x scroll 50% 50% #0078AE;
+    border: 1px solid #007f7f;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-transform: uppercase;
+}
+.y41b-generico_buttons:hover
+{
+   background: #79c9ec url("../../y41b/images/ui-boton_hover.png") 50% 50% repeat-x; 
+	color: #FFFFFF;
+}
+
+.y41b-generico_buttons_red{
+   background: repeat-x scroll 50% 50% #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-transform: uppercase;
+}
+
+.y41b-generico_buttons_red:hover
+{
+   background: #ff0000 50% 50% repeat-x; 
+	color: #FFFFFF;
+}
+
+.right_buttons input {
+	/*background: url("../../y41b/images/btn_formulario.png")!important;*/
+	background:#087579!important;
+	color:#FFFFFF!important;
+	font-weight:bold!important;
+	height:22px;
+	border:0px!important;
+	text-transform:uppercase;
+}
+
+.right_buttons input:hover {
+	/*background: url("../../y41b/images/btn_formulario_hover.png")!important;*/
+	background:#46ABAC!important;
+	color:#FFFFFF!important;
+	font-weight:bold!important;
+	height:22px;
+	border:0px!important;
+	text-transform:uppercase;
+}
+
+/* -- FIN BOTONES VERDES FORMULARIO --  */
+
+/* -- BOTONES GRISES FORMULARIO --  */
+
+.mancheta_gris{ /*Opcional, algunos botones no la llevan*/
+	background:#f2f2f2;
+	height:40px;
+
+}
+
+.btn_gris{
+	margin-bottom:1.2em;
+	text-align:right;
+	background-color:#F2F2F2;
+	height:27px;
+	padding-top:5px;
+	margin-bottom:1em;
+	-moz-border-radius:5px;	
+	padding-right:5px;	
+}
+
+.btn_gris input {
+	background:#5b5b5b!important;
+	color:#FFFFFF!important;
+	font-weight:bold!important;
+	height:22px;
+	border:0px!important;
+	text-transform:uppercase;
+}
+
+.btn_gris input:hover {
+	background:#7a7a7a !important;
+	color:#FFFFFF!important;
+	font-weight:bold!important;
+	height:22px;
+	border:0px!important;
+	text-transform:uppercase;
+}
+
+/* -- FIN BOTONES GRISES FORMULARIO --  */
+
+
+/* TITULO PAGINA AZUL */
+
+h1 {
+	color:#0084b0;
+	font-size:2.0em;
+	display:block; 
+	padding:0;
+	margin:0; 
+	border-bottom:0px;
+	margin-right:0.3em;	
+	float:right;		
+}
+
+
+h2 {
+	font-size:1.4em; 
+	color:#555555; 
+	display:block; 
+	padding:0;
+	margin:0.5em; 		
+}
+
+h3 { 
+	font-size:1.4em;
+	color:#555555; 
+	display:block; 
+	padding:0; 
+}
+
+
+
+/* CONTENEDOR */
+
+.contenedor{
+	padding-bottom:10px;
+	margin-top:-1em;
+
+	/*position: relative;*/
+	/*max-width: 1200px;
+    min-width: 990px;*/
+}
+
+.contentMV
+{
+       float:right;
+       width:100%;
+       height:auto;
+       padding-bottom: 1em;
+	}
+.contentMV_escritorio
+{
+       float:left;
+       width:97%;
+       /*height:460px;*/
+       height:auto;
+       margin-left: 1.4em;
+       padding-bottom: 1em;
+	}
+.y41b-modalEstMantenimiento
+	{
+		max-width: 900px;
+   		min-width: 850px;
+	}
+.y41b-modalCensoConsumidorModal
+	{
+	/* 	max-width: 900px;
+   		min-width: 850px; */
+	}
+/* IMAGEN LUPA PARA IE8, QUITAR GUION "-" */
+
+.ocult_guion{
+	color:#FFFFFF!important;	
+}
+
+/*Border de tabla General*/
+
+.tabla_general{
+	border:1px solid #AAAAAA;
+	-moz-border-radius-bottomright:4px;
+	-moz-border-radius-bottomleft:4px;
+	-moz-border-radius-topright:4px;
+	-moz-border-radius-topleft:4px;
+}
+
+
+/* ---- CABECERA ----- */
+
+.ui-icon-cerrarsesion{
+	
+	background: url(../../y41b/images/y41b-cerrarsesion.png) no-repeat scroll left top transparent  !important;
+ 	float: right;
+    left: 0.5em;
+    padding-bottom: 6px;
+    padding-left: 2em !important;
+}
+
+.cabecera{
+	margin-bottom:0em!important;
+	/*height:100px;*/
+}
+
+.titulo_idioma{
+	float:right;
+	/*margin-top:2.2em;*/
+	/*width:60%;*/	
+}
+
+
+		
+#cabeceraLanguageCombo{
+	/*float:right;*/
+	display:block;
+	/*margin-top:-1em;*/
+	border:0px solid #DADADA!important;
+	/*width: 19em!important;*/
+	font-weight:bold;
+	float:none;
+}
+#cabeceraIconoRecCia{
+	/* float:right; */
+
+}
+
+.rup-language_change {
+	background: url("../../y41b/images/ui-boton.png") repeat-x scroll 50% 50% #0078AE;
+	
+	color:#FFFFFF;
+	text-decoration:none;
+	width:12em;
+	height:23px;
+}
+
+.rup-language_change a{
+	color:#FFFFFF;
+	text-decoration:none;
+	padding: 5.3em 7em 1.3em -1em;
+	font-weight:bold;	
+}
+
+.rup-language_change_opened{
+	background: url("../../y41b/images/ui-boton_hover.png") repeat-x scroll 50% 50% #0078AE;
+	color:#FFFFFF;
+	text-decoration:none;
+	width:12em;
+	height:23px;	
+}
+
+.rup-language_change_option{
+	background: url("../../y41b/images/ui-boton_hover.png") repeat-x scroll 50% 50% #0078AE;
+	text-decoration:none;
+	/*width:92px;*/	
+	color:#FFFFFF!important;
+	text-decoration:none;
+	padding:0.2em 2.6em 0.2em 0.5em;
+	font-weight:bold;	
+}
+.rup-language_language_list
+{
+	top: 22px !important;
+	padding: 0.7em 0.5em 0.5em 1em !important;
+	width:137px !important;
+	left:73px!important;
+	}
+
+
+.rup-language_active{
+	font-weight:bold;
+	padding-right:1.5em;
+	width:58px;	
+}
+#rup_language_close{
+	color: #F7F7F7;
+	}
+.rup-language_language_list li{
+	background-color: #F7F7F7 !important;
+	
+	}
+.rup-language_language_list a
+{
+	color: #008abb;
+	text-decoration: none !important;
+}
+.rup-language_language_list .ui-state-active a{
+	color: #000;
+	}
+.rup-language_language_list ul li a:hover {
+    /* text-decoration: underline ; */
+}
+.rup-language_language_list ul li.rup-language_language_list_active a {
+    color: #6f7374 !import	ant;
+  
+}
+.rup-language_language_list a:link{
+	width: 22%;
+	border-style: none;
+	}
+
+.rup-language_language_list_active a:hover
+{
+	/*  text-decoration:underline !important; */
+	}
+
+.y41b-usuario_cabazera
+{
+	float:left;
+	padding-right: 1em;
+	margin-top: 0.4em;
+	font-weight:bold;
+	}
+.rup-breadCrumb_root
+{
+	float:left;
+	width: auto;
+	}
+.rup-breadCrumbs_span {
+    float: left;
+    padding-top: 0em;
+    margin-top: 0.4em;
+}
+
+/* ---- FIN CABECERA ---- */
+/* ---- AVISO LEGAL ---- */
+.y41b-aviso_legal{
+		margin: 0;
+		padding: 0;
+		background: #FFFFFF;
+		font-family: Arial,Helvetica,sans-serif;
+		font-size: 1em; 
+		color: #666666;
+		}
+/* ---- FIN AVISO LEGAL ---- */
+
+/* ---- FOOTER ---- */
+
+.footer{
+  background-color: #009090;
+    clear: both;
+    color: #FFFFFF;
+    /* height: 15px; */
+    margin-right: 0;
+    margin-top: 14px;
+    width: 100%;
+}
+
+.footer_left{
+	float:left;	
+	margin-left: 1em;
+}
+
+.footer_right{
+	float:right;
+	margin-right: 1em;
+}
+
+.footer_left a:link{
+	color:#FFFFFF!important;	
+	text-decoration:none;
+}
+
+.footer_left a:visited{
+	color:#FFFFFF!important;	
+	text-decoration:none;
+}
+
+.footer_left a:hover{
+	color:#FFFFFF!important;	
+	text-decoration:underline;	
+}
+
+.footer_left a:active{
+	color:#FFFFFF!important;	
+	text-decoration:none;	
+}
+.footer_left a:link {
+    font-weight: normal;
+}
+
+/* ---- FIN FOOTER ---- */
+
+
+
+
+/* CALENDARIO */
+
+/* FIN DE SEMANA (SAB-DOM) */ 
+
+.ui-datepicker-week-end a {
+	background:url("../../rup/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #E6E6E6!important;
+	border:1px solid #D3D3D3!important;
+	color:#555555!important;
+}
+
+/* FIN DE FIN DE SEMANA (SAB-DOM) */
+
+.ui-datepicker-calendar .ui-state-highlight a,
+.ui-datepicker-current-day a {
+	background:#FCFFDF!important;
+	border:1px solid #FCFFDF!important;
+	
+}
+
+/* -- FIN CALENDARIO -- */
+
+
+/* -- LINK LIMPIAR SIN ASCPECTO BOTON -- */
+
+
+.link_limpiar a:link{
+	color:#009999;
+	text-decoration:underline;
+}
+
+.link_limpiar a:visited{
+	color:#009999;
+	text-decoration:underline;
+}
+
+.link_limpiar a:hover{
+	color:#009999;
+	text-decoration:none;
+}
+
+.link_limpiar a:active{
+	color:#009999;
+	text-decoration:underline;
+}
+
+/* -- FIN LINK LIMPIAR SIN ASCPECTO BOTON -- */
+
+/* MODAL */
+/*
+.ui-resizable .ui-widget-header{
+	background-image:none!important;
+	background-color:#0188b5!important;	
+	
+}
+*/
+.ui-dialog-titlebar
+{
+	background-image:none!important;
+	background-color:#0188b5!important;	
+}
+.ui-resizable .ui-widget-header a:link{
+	color:#FFFFFF!important;
+	text-decoration:underline;	
+	
+}
+
+.ui-resizable .ui-widget-header a:visited{
+	color:#FFFFFF!important;
+	text-decoration:underline;
+	
+}
+
+.ui-resizable .ui-widget-header a:hover{
+	color:#FFFFFF!important;
+	text-decoration:none;	
+	
+}
+
+.ui-resizable .ui-widget-header a:active{
+	color:#FFFFFF!important;
+	text-decoration:underline	
+	
+}
+/* MODAL AVISO LEGAL */
+
+
+/* FIN MODAL AVISO LEGAL */
+
+/* MIGAS DE PAN */
+.y41b-migas{
+	 float: left;
+    height: 24%;
+    width: 100%;
+     padding-bottom: 0.5em;
+    padding-top: 0.5em;
+     clear: both;
+    display: block;
+	}
+.y41b-desconexion{
+
+    /*clear: both;*/
+   
+}
+.rup-breadCrumb_main LI A {
+    color: #0A8ECC;
+    text-decoration: none;
+}
+.rup-breadCrumb_main LI A:hover {
+    color: #000000;
+    text-decoration: underline;;
+}
+.rup-breadCrumb_main
+{
+	width:auto;
+	}
+/* FIN MIGAS DE PAN */
+
+/*tablas modal*/
+/*
+#GRID_asistente_id{
+	width:64px!important;	
+}
+
+.rup-grid_cellPadding{
+	padding:0.5em!important;	
+}
+
+#gbox_GRID_asistente{
+	width:672px!important;	
+	
+}
+
+#GRID_asistente{
+	width:672px!important;
+	border-right:0px!important;
+}
+
+.ui-state-default.ui-jqgrid-hdiv{
+	width:672px!important;
+}
+
+.ui-jqgrid-bdiv{
+	width:672px!important;	
+}
+
+#pager{
+	width:672px!important;	
+}
+
+
+*/
+/* FIN MODAL */
+
+
+
+
+/* ELEMENTO OCULTABLE */
+
+.elemento_ocultable {
+	margin-top:0.5em;
+	background-color:#e1f2f8;
+	width:100%;
+	padding:0.5em;
+	height:18px;
+	-moz-border-radius: 5px;
+}
+
+.elemento_link {
+	padding-left:0.5em;
+	color:#0099cc!important;
+	font-weight:bold;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.elemento_link:hover {
+	padding-left:0.5em;
+	color:#0099cc!important;
+	font-weight:bold;
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+
+.elemento_contenido_oculto{
+	border:2px solid #e1f2f8;
+	width:100%;
+	padding:5px;
+	-moz-border-radius: 5px;
+}
+
+
+#flecha_mostrar{
+	float:left;	
+}
+
+#flecha_ocultar{
+	float:left;
+	padding-left:5px;
+	padding-right:5px;	
+}
+
+#flecha_mostrar2{
+	float:left;	
+}
+
+#flecha_ocultar2{
+	float:left;
+	padding-left:5px;
+	padding-right:5px;	
+}
+.mycontainer{
+	overflow:visible!important;	
+}
+
+.fecha_actualizacion{
+	color:#555555;
+	text-align:right;
+	font-style:italic;
+	margin-top:1em;
+	font-weight:bold;
+	font-size:0.9em;
+}
+#mostrar_ent_no_activas{
+	text-align:right;
+}
+#arbol.no_activas{
+	color:red;
+}
+
+/**
+* Arbolito - Organismos
+* Node titles
+ */
+
+span.dynatree-has-children a
+{
+	font-style: oblique;
+}
+
+span.dynatree-selected a
+{
+	color: green;
+	font-style: italic;
+	border: 1px solid maroon;
+	background-color: #94D0EB !important;
+}
+
+span.dynatree-active a,
+span.dynatree-active a:hover
+{
+	border: 1px solid maroon;
+	background-color: #94D0EB !important; /* reddish */
+	color: #000000 !important;
+}
+ul.dynatree-container a:hover {
+    background: none repeat scroll 0 0 #F5F0F2;
+    border-color: #F5F0F2;
+    color: #000000 !important;
+}
+
+span.arbol_grupo a{
+	font-size:0.8em;
+	font-family: Arial,Helvetica,sans-serif;
+	font-style:normal;
+	font-weight:normal;
+	/**color:red;**/
+}
+span.arbol_entidad a{
+	font-size:0.8em;
+	font-family: Arial,Helvetica,sans-serif;
+	font-style:italic;
+	font-weight:normal;
+	color:green;
+}		
+
+/* Fin de arbolito organismos*/
+
+#contactos_bloque_contactos {
+width: 650px;
+/*color: red;*/
+height:150px;
+overflow-y:scroll;
+}
+
+#contactos_bloque_entidades {
+width: 650px;
+/*color: red;*/
+height:150px;
+overflow-y:scroll;
+}
+/* ----  LOGIN ----- */
+.contenedor_login
+{
+	   background: url("../../y41b/images/y41b-body.png") no-repeat fixed left top #FFFFFF; 
+
+	}
+.div_login
+{
+	
+	background-color: #EDF6FA;
+    border: 2px solid #008ABB;
+    border-radius: 10px 10px 10px 10px;
+    	position: absolute;
+		/*nos posicionamos en el centro del navegador*/
+		top:50%;
+		left:50%;
+		/*determinamos una anchura*/
+		/*width:400px;*/
+		width:40em;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-200px;
+		/*determinamos una altura*/
+		height:300px;
+		/*indicamos que el margen superior, es la mitad de la altura*/
+		margin-top:-150px;
+		height: 26em;
+		padding:5px;
+	}
+.elem_login{
+	/*margin: 21px; */
+	padding-top: 3em;
+	}
+.h1_izquierda{
+	 text-align: center;
+	}
+.formulario_login{
+	width: 100%;
+	padding-top: 4em;
+	/* margin: 5em 5em 6em 7em; */
+
+	}
+.formulario_login_cambio{
+	/* margin: 3em 4em 7em; */
+   	width: 100%;
+   /* 	height: 19em; */
+	}
+/* ----  FIN LOGIN ----- */
+/* ----- GRID ------- */
+/*
+.ui-jqgrid .ui-jqgrid-htable th:hover {
+						 border: 1px solid #448dae;  
+						 font-weight: normal; 
+						 color: #026890; 
+						 }
+						 */
+						 
+.ui-state-disabled .linkPaginacion {
+	text-decoration: none !important;
+	color: #FFFFFF !important;
+	}
+						 
+.linkPaginacion {
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    background-color: #C0C1C2 !important;
+}
+.linkPaginacion:hover 
+	{ 
+	color: #FFFFFF !important;
+	text-decoration:underline;  
+	}
+.linkPaginacion.ui-state-disabled:hover { 
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+	.linkPaginacion:focus{
+	color: #FFFFFF ;
+	}
+.ui-state-disabled{
+	opacity: 0.55 !important;
+	}
+	
+/* calendario */
+	.ui-datepicker-today a {
+    background: none no-repeat scroll 50% 50% #F7CD23 !important;
+    border: 0.1em solid #195FFE !important;
+    color: black !important;
+    font-weight: normal !important;
+}
+.y41b-EstMantenimientoAdhesionCapa
+{
+	display:none;
+	float:right;
+	/* padding-left: 35em; */
+}
+.y41b-VisitaAdhesionCapa
+{
+	display:none;
+	float:left;
+}
+.y41b-EstMantenimientoModificacion
+{
+	display:none;
+}
+.y41b-CensoConsumidorModalModificacion
+{
+	display:none;
+}
+.y41b-CensoConsumidorModalMasInformacion
+{
+	display:none;
+}
+.y41b-DireccionAntiguaCompleta
+{
+	display:none;
+}
+.y41b-BotonHidden
+{
+	display:none;
+}
+.y41b-CapaHidden
+{
+	visibility:hidden !important;
+}
+.y41b-EstMantenimientoAdhesionCapaVisible
+{
+	visibility:visible;
+	float:right;
+}
+.y41b-autocomplete
+{
+	width: 15em;
+}
+.y41b-piso
+{
+	width: 5em;
+}
+.y41b-anio
+{
+	width: 4em;
+}
+.y41b-sectores
+{
+	width: 20em;
+}
+.y41b-tituloplantilla
+{
+ 	font-weight: bold;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+}
+.label_color
+{
+	margin: 1em;
+    padding: 0.3em;
+}
+/* ----  DETALLE PROTOCOLO ----- */
+
+#y41bPrevisualizarProtocoloDiv .y41b-row_border {
+	padding: 13px 8px 5px 8px !important;
+}
+
+h1.y41bPrevisualizarProtocolo_TituloH1 {
+	text-align: center !important;
+	margin: 10px 0 15px 0;
+	display: block;
+	width: 100%;
+}
+
+h2.y41bPrevisualizarProtocolo_TituloH2 {
+	font-weight: bold;
+	margin: -2px 0 5px 0;
+	font-size: 15px;
+}
+
+div.y41bPrevisualizarProtocolo_LineaCabecera {
+	margin: -5px 0;
+}
+
+div#y41bTiposProtocoloBusqueda_DivTabla .rup-grid_cellPadding a {
+	display: block;
+	line-height: 2;
+}
+
+div.y41b-PrevisualizarProtocoloCapa {
+	overflow: hidden;
+}
+
+div.y41b-PrevisualizarProtocoloCapa ul {
+	clear: both;
+	list-style: none;
+	padding-left: 5px;
+}
+  
+div.y41b-PrevisualizarProtocoloCapa ul li {
+	padding: 2px 2px 6px 2em;
+}
+
+#y41bModalPrevisualizarProtocoloDiv {
+	padding: 3px 0;
+}
+
+.y41b-PrevisualizarProtocoloCapa > div {
+	padding: 0 10px;
+}
+
+.y41b-PrevisualizarProtocoloCapa {
+	border: 0.5px solid #0282AD;
+    border-radius: 4px 4px 4px 4px;
+    padding: 10px 20px 0 15px;
+}
+
+#y41bPrevisualizarProtocoloDiv .formulario_bloque {
+	font-size: 14px;
+}
+
+#y41bPrevisualizarProtocoloDiv .y41b-row {
+	padding: 0;
+}
+
+#y41bPrevisualizarProtocoloDiv hr {
+	border: none;
+	border-top: 1px solid #0282AD;
+}
+
+#y41bPrevisualizarProtocoloDiv ul {
+	padding-left: 0px;
+}
+
+#y41bPrevisualizarProtocoloDiv ul ul {
+	margin-left: 10px;
+}
+
+#y41bPrevisualizarProtocoloDiv .formulario_bloque label {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#y41bPrevisualizarProtocoloDiv .formulario_bloque span {
+	text-transform: capitalize;
+}
+
+#y41bPrevisualizarProtocoloDiv li {
+	display:block;
+	clear: both;
+	margin: 8px 0px;
+	padding: 0;
+	list-style: none;
+}
+
+#y41bPrevisualizarProtocoloDiv span {
+	line-height: 2;
+}
+
+#y41bPrevisualizarProtocoloDiv .y41b-TituloProtocolo {
+	font-weight: bold;
+	font-size: 0.9em;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+#y41bPrevisualizarProtocoloDiv .y41b-CheckProtocolos-Div {
+	display: inline-block;
+	float: right;
+	margin: 5px 0;
+}
+
+#y41bPrevisualizarProtocoloDiv .y41b-CheckProtocolos {
+	font-weight: bold;
+	margin-left: 15px;
+	vertical-align: top;
+	margin-right: 3px;
+}
+
+#y41bPrevisualizarProtocoloDiv .y41b-CheckProtocolos.y41b-CheckProtocoloSi {
+	color: green;
+}
+
+#y41bPrevisualizarProtocoloDiv .y41b-CheckProtocolos.y41b-CheckProtocoloNo {
+	color: red;
+}
+
+
+
+	
+/* ----  FIN DETALLE PROTOCOLO ----- */
+.y41b-CapaOculta
+{
+	display:none;
+	float:right;
+}
+.y41b-CapaOcultaLogin
+{
+	display:none;
+/* 	visibility:hidden; */
+	float:right;
+}
+.y41bCambioLoginMensaje
+{
+	height: 3px;
+	}
+.y41b-InputOculta
+{
+	display:none;
+}
+
+.y41b_dialogModal{
+	padding-top: 10px !important;
+	display: none;	
+}
+
+#y41bEstMantenimientoModal
+{
+    overflow: hidden !important;	
+}
+#y41bCensoMonitorAltaDiv
+{
+    overflow: hidden !important;	
+}
+.y41b-MensajeLogin
+{
+	color: red;
+	font-weight:bold;
+	float: none !important;
+	width: 100%;
+	
+	height: 100%;
+}
+.y41b-AccesoDenegado
+{
+	color: red;
+	font-weight:bold;
+	font-size: 18px;
+}
+.y41b-divLabel
+{
+	float: left;
+}
+.y41b-divInput
+{
+}
+/** Maquetar formularios **/
+.y41b-label-Cambiologin
+{
+	float: left;
+    text-align: right;
+}
+.y41b-columLabel13
+{
+	float: left;
+    width: 13em;
+	}
+.y41b-columLabel
+{
+	float: left;
+    width: 11em;
+	}
+.y41b-columLabel10
+{
+	float: left;
+    width: 10em;
+	}
+.y41b-columLabel7
+{
+	float: left;
+    width: 7em;
+	}
+.y41b-columLabelAuto
+{
+	float: left;
+    width: auto;
+	}	
+.y41b-columLabel6
+{
+	float: left;
+    width: 6em;
+	}
+.y41b-columLabel30por
+{
+	float: left;
+    width: 30% !important;
+	}
+.y41b-columLabel5
+{
+	float: left;
+    width: 5em;
+	}
+.y41b-columLabel6
+{
+	float: left;
+    width: 6em;
+	}
+.y41b-columLabel8
+{
+	float: left;
+    width: 8em;
+	}
+.y41b-columLabel9
+{
+	float: left;
+    width: 9em;
+	}
+.y41b-columLabelLogin
+{
+	float: left;
+    width: 7em;
+	}
+.y41b-columLabelCombo
+{
+	float: left;
+   	width: 7em;
+	}
+.y41b-columLabelComboSolicitudes
+{
+	float: left;
+   	width: 4.8em;
+	}
+.y41b-columLabelComboModal
+{
+	float: left;
+   	width: 6em;
+	}
+.y41b-columLabel_cambioLogin
+{
+	float: left;
+    width: 11em;
+	}	
+.y41b-columLogin
+{
+	float: left;
+	padding-left: 11em;
+	
+	}
+.y41b-columLabel12
+{
+	float: left;
+	width: 12em;
+	
+	}
+.y41b-columLabel13
+{
+	float: left;
+	width: 13em;
+	
+	}
+.y41b-columLabel15
+{
+	float: left;
+	width: 15em;
+	
+	}
+.y41b-columLabel20
+{
+	float: left;
+	width: 20em;
+	
+	}
+	
+.y41b-columLabel22
+{
+	float: left;
+	width: 22em;
+	
+	}		
+	
+.y41b-columLoginCambio
+{
+	float: left;
+	padding-left: 8em;
+	
+	}
+	
+.y41b-iconoBandeja
+{
+	cursor: pointer;
+	padding-left: 0.26em;
+	padding-right: 0.26em;
+}
+
+.y41b-columIzquierda
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 49.5%;
+	}
+
+.y41b-columIzquierda15
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 15%;
+	}
+.y41b-columIzquierda16
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 16%;
+	}
+
+.y41b-columIzquierda25
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 25%;
+	}
+.y41b-columIzquierda33
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 33%;
+	}
+.y41b-columIzquierda30
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 30%;
+	}
+.y41b-columIzquierda35
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 36%;
+	}
+
+
+.y41b-columIzquierda15e
+{
+	float: left;
+	padding-bottom: 0.5em;
+	/*width: 14%;*/
+	}
+.y41b-columIzquierda35e
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 33%;
+}
+.y41b-columIzquierda45e
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 43%;
+	}
+.y41b-columIzquierda40e
+{
+	float: left;
+	padding-bottom: 0.5em;
+	/*width: 39%;*/
+	}
+
+.y41b-columIzquierda40
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 40%;
+	}
+.y41b-columIzquierda50
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 50%;
+	}
+.y41b-columIzquierda45
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 45%;
+	}
+.y41b-columIzquierda55
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 55%;
+	}
+
+.y41b-columIzquierda60
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 60%;
+	}
+.y41b-columIzquierda66
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 66%;
+	}
+.y41b-columIzquierda70
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 70%;
+	}
+.y41b-columIzquierda80
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 80%;
+	}
+.y41b-columIzquierda99
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 99%;
+}
+	
+.y41b-columIzquierda99Marco
+{
+	float: left;
+	padding: 0.5em;
+	margin: 0.5em;
+	border: 1px solid #EBE8E9;
+	width: 70%;
+}
+
+.y41b-columIzquierda99MarcoArbitraje
+{
+	float: left;
+	padding: 0.5em;
+	margin: 0.5em;
+	border: 1px solid #EBE8E9;
+	width: 80%;
+}
+		
+.y41b-columIzquierdaSolicitudes, .y41b-columIzquierdaSanciones
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 49.5%;
+	}
+	
+.y41b-columIzquierdaSolicitudes99, .y41b-columIzquierdaSanciones99
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 99%;
+	}
+.y41b-header
+{
+	text-align: center;
+	font-weight: bold;
+	}
+.y41b-columIzquierdaSolicitudes60
+{
+	width: 66% ;
+	}
+.y41b-columIzquierdaTranslados
+{
+	width: 80% !important;
+	}
+.y41b-columLabelSolicitud,
+.y41b-columLabelConsultas,
+.y41b-columLabelInspecciones
+{
+	float: left;
+    width: 15em;
+}
+.y41b-columLabelConsultasEdicion
+{
+	float: left;
+    width: 12em;
+	}
+.y41b-columLabelRecepciones
+{
+	float: left;
+    width: 13.4em;
+	}
+.y41b-columIzquierda95
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 95%;
+	}
+.y41b-columIzquierda100
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 100%;
+	}
+.y41b-columIzquierdaCombos
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 33.3%;
+	}
+.y41b-columCombos
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 99%;
+	}
+.y41b-columIzquierdaDos
+{
+	float: left;
+	width: 5em;
+	}
+.y41b-columDerecha
+	{
+	float: left;
+	padding-right: 10px;
+	}
+.y41b-generico_buttons_login
+{
+	margin-top: 2.3em;
+	margin-left: 13.3em;
+
+	}
+.y41b-generico_buttons_login_inicio
+{
+	margin-top: 2.3em;
+	margin-left: 16.3em;
+
+	}
+.y41b-label_radios
+{
+	padding-left: 4px !important;
+    padding-right: 7px !important;
+}
+/** FIN Maquetar formularios **/
+/** Maquetar combos **/
+#y41bCensoConsumidorComboProvincia-button
+{
+	width: 18em !important;
+
+	}
+#y41bCensoConsumidorComboMunicipio-button
+{
+	width: 18em !important;
+	
+	}
+#y41bCensoConsumidorComboLocalidad-button
+{
+	width: 18em !important;
+
+}
+#y41bCensoConsumidorComboProvincia-menu
+{
+	width: 18em !important;
+
+	}
+#y41bCensoConsumidorComboMunicipio-menu
+{
+	width: 18em !important;
+	
+	}
+#y41bCensoConsumidorComboLocalidad-menu
+{
+	width: 18em !important;
+
+}
+/*
+#y41bEstablecimientosComboProvincia-button
+{
+	width: 18em !important;
+
+}
+#y41bEstablecimientosComboProvincia-menu
+{
+	width: 18em !important;
+
+}
+#y41bEstablecimientosComboMunicipio-button
+{
+	width: 18em !important;
+
+}
+
+#y41bEstablecimientosComboMunicipio-menu
+{
+	width: 18em !important;
+
+}
+#y41bEstablecimientosComboLocalidad-button
+{
+	width: 18em !important;
+
+}
+#y41bEstablecimientosComboLocalidad-menu
+{
+	width: 18em !important;
+
+}*/
+#y41bBusquedaSolicitudesPersonaComboProvincia-button
+{
+	width: 18em !important;
+	}
+#y41bBusquedaSolicitudesPersonaComboProvincia-menu
+{
+	width: 18em !important;
+	}
+#y41bBusquedaSolicitudesPersonaComboMunicipio-button
+{
+	width: 18em !important;
+	}
+#y41bBusquedaSolicitudesPersonaComboMunicipio-menu
+{
+	width: 18em !important;
+	}
+#y41bBusquedaSolicitudesPersonaComboLocalidad-button
+{
+	width: 18em !important;
+	}
+#y41bBusquedaSolicitudesPersonaComboLocalidad-menu
+{
+	width: 18em !important;
+	}
+	
+#y41bBusquedaSolicitudesEstablecimientoComboProvincia-button
+{
+	width: 18em !important;
+	}
+#y41bBusquedaSolicitudesEstablecimientoComboProvincia-menu
+{
+	width: 18em !important;
+	}
+#y41bBusquedaSolicitudesEstablecimientoComboMunicipio-button
+{
+	width: 18em !important;
+	}
+#y41bBusquedaSolicitudesEstablecimientoComboMunicipio-menu
+{
+	width: 18em !important;
+	}
+#y41bBusquedaSolicitudesEstablecimientoComboLocalidad-button
+{
+	width: 18em !important;
+	}
+#y41bBusquedaSolicitudesEstablecimientoComboLocalidad-menu
+{
+	width: 18em !important;
+	}
+	
+#y41bBusquedaComboProvincia-button
+{
+	width: 18em !important;
+	}
+#y41bBusquedaComboProvincia-menu
+{
+	width: 18em !important;
+	}
+#y41bBusquedaComboMunicipio-button
+{
+	width: 18em !important;
+	}
+#y41bBusquedaComboMunicipio-menu
+{
+	width: 18em !important;
+	}
+#y41bBusquedaComboLocalidad-button
+{
+	width: 18em !important;
+	}
+#y41bBusquedaComboLocalidad-menu
+{
+	width: 18em !important;
+	}
+	
+/* #y41bConsultaComboProvincia-button
+{
+	width: 74% !important;
+	}
+#y41bConsultaComboProvincia-menu
+{
+	width: 23.6% !important;
+	}
+#y41bConsultaComboMunicipio-button
+{
+	width: 74% !important;
+	}
+#y41bConsultaComboMunicipio-menu
+{
+	width: 23.6% !important;
+	}
+#y41bConsultaComboLocalidad-button
+{
+	width: 74% !important;
+	}
+#y41bConsultaComboLocalidad-menu
+{
+	width: 23.6% !important;
+	}  */
+/** fin Maquetar combos **/
+.y41b-telefono
+{
+width: 7em;
+}
+.rup-language_root li {
+  
+    margin-right: 0em !important;
+}
+
+#pagerCensoConsumidor_left
+{
+	width: 10%;
+	}
+.y41b-checkbox
+{
+	margin-right: 0.5em !important;
+	
+	}
+#capaPadre{
+	padding-left: 0em;
+	}
+.ui-jqgrid .ui-jqgrid-bdiv {
+	overflow: hidden !important;
+	}
+
+.y41b-readonly
+{
+	background-color: #EBE8E9;
+	border-color: #EBE8E9;
+    border-style: solid;
+	}
+.y41b-labelTitulo
+{
+	color: #474647;
+   	font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    background: url("../images/mostrarMenos.png") no-repeat scroll left;
+    font-weight: bold;
+    padding-left: 1.5em;
+    
+}
+
+.y41b-labelTituloPlegado {
+    background: url("../images/mostrarMas.png") no-repeat scroll left;
+    padding-left: 1.5em;
+}
+	
+.y41b-labelTitulo2
+{
+	color: #474647;
+   	font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 1em;    
+    font-weight: bold;
+    padding-left: 1.5em;
+    
+}
+
+.y41b-labelTitulo3
+{
+	color: #474647;
+   	font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;    
+    font-weight: bold;
+    padding-left: 1.5em;
+    
+}
+
+.y41b-subtitulo{
+	color: #474647;
+	margin-top: 1em;
+	margin-left: 1em;
+	font-weight: bold
+}
+
+.y41b-tablaPlantilla{
+	padding-left: 2em !important;
+	
+	}
+.y41b-margerBorder
+{
+	padding-left: 8px !important;
+	}
+.y41b-margerTabla
+{
+	padding-left: 0em !important;
+	}
+.y41b-solicitudRadio
+{
+	float: left;
+    width: 15em;
+}
+.fileupload-buttonbar {
+	/* padding-left: 1em !important; */
+	}
+/* #y41bTabsDetalleSolicitud .ui-widget-header
+{
+	background-color: #FFFFFF !important;
+	} */
+/* .rup-feedback
+{
+	background-color: #FFFEDA !important;
+	} */
+#y41bConsultaEdicionTextoRespuesta_tbl{
+	width: 100% !important;
+	}
+#y41bConsultaTextoRespuesta_tbl{
+	width: 100% !important;
+	}
+.pager_left
+{
+	width: 5% !important;
+	}
+.fileupload-content.ui-widget-content.ui-corner-bottom {
+	border-bottom: medium none;
+	}
+.y41b-cuboBasura
+{
+	width: 21px;
+	height: 17px;
+	}
+.y41b-zoom
+{
+	width: 21px;
+	height: 17px;
+	}
+.y41b-plantilla
+{
+	width: 24px;
+	height: 24px;
+}
+.y41b-usuario
+{
+	width: 18px;
+	height: 16px;
+	}
+.y41b-adjunto
+{
+	width: 22px;
+	height: 22px;
+	}
+.y41b-campana
+{
+	width: 19px;
+	height: 19px;
+	}
+	
+.y41b-flecha
+{
+	width: 15px;
+	height: 15px;
+	}
+.y41b-aspa
+{
+	width: 15px;
+	height: 15px;
+	}	
+	
+.y41b-lapiz
+{
+	width: 15px;
+	height: 15px;
+	}	
+
+/**********combos*******/
+.y41b-row a
+{
+	background: none repeat-x scroll 50% 50% #F5F5F5; 
+  
+	}
+.y41b-columIzquierdaCombos a{
+	background: none repeat-x scroll 50% 50% #F5F5F5;
+	}
+
+.y41b-row a:hover
+{
+	color: #008ABB ;
+	font-weight: bold;
+  
+	}
+.y41b-row a:visited
+{
+	color: #000000 ;
+	font-weight: bold;
+  
+	}	
+.y41b-row a:focus
+{
+	color: #000000;
+	font-weight: bold;
+  
+	}
+/**********fin combos*******/
+/*autocoplete link	*/
+/* .ui-autocomplete a
+{
+	background: none repeat-x scroll 50% 50% #F5F5F5 !important; 
+  
+	}
+.ui-autocomplete a:hover
+{
+	color: #008ABB !important;
+	font-weight: bold;
+  
+	}
+.ui-autocomplete a:visited
+{
+	color: #000000 !important;
+	font-weight: bold;
+  
+	} */
+/* fin autocoplete link	*/
+.y41b-row_combos a
+{
+	background: none repeat-x scroll 50% 50% #F0F0F0 !important;
+  
+	}
+.y41b-row_combosa:hover
+{
+	color: #008ABB !important;
+	font-weight: bold;
+  
+	}
+.y41b-row_combos a:visited
+{
+	color: #000000 !important;
+	font-weight: bold;
+  
+	}
+.ui-jqgrid-btable a
+{
+	background: none  !important;
+	}
+.ui-dialog-title
+{
+	margin-right: 1.5em !important;
+	}
+.y41b-NoraDireccionOtras
+{
+	display: none;
+	}
+.y41b-NoraDireccionEuskadi
+{
+	display: none;
+		}
+.rup-feedback_closeLink{
+	height: 1.5em;
+    padding-right: 2em !important;
+    padding-top: 0.2em !important;
+    text-decoration:  none !important;
+	}
+.rup-feedback_closeLink:hover
+{
+    text-decoration: underline !important;
+}	
+	
+	
+	/* cabecera ficha expediente */
+	
+.y41b-cabecerafichaExp-UltimoTramiteRealizado{
+	background-color: #C3D5E8;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    padding: 0.2em 0.5em;
+    width: 300px;
+}
+	
+.y41b-cabecerafichaExp-UltimoTramiteRealizado span{	
+	font-weight: bold;
+	margin-left: 0.5em !important;
+	font-size: 1.1em;
+}
+
+.y41b-cabecerafichaExp-UltimoTramiteEnCurso{
+	background-color: #C3D5E8;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    padding: 0.2em 0.5em;
+    width: 300px;
+}
+	
+.y41b-cabecerafichaExp-UltimoTramiteEnCurso span{	
+	font-weight: bold;
+	margin-left: 0.5em !important;
+	font-size: 1.1em;
+}
+
+
+.y41b-cabecerafichaExp-UltimoTramiteEntidad{
+	background-color: #C3D5E8;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    padding: 0.2em 0.5em;
+    width: 300px;
+}
+	
+.y41b-cabecerafichaExp-UltimoTramiteEntidad span{	
+	font-weight: bold;
+	margin-left: 0.5em !important;
+	font-size: 1.1em;
+}
+
+.y41b-cabecerafichaExp-FaseExpediente{
+	 background-color: #C3D5E8;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    padding: 0.2em 0 0.2em 0.5em;
+    width: 200px;
+}
+
+.y41b-cabecerafichaExp-FaseExpediente span{	
+	font-weight: bold;
+	margin-left: 0.5em !important;
+	font-size: 1.1em;
+}
+
+.y41b-cabecerafichaExp-InstructorExpediente{
+	 background-color: #C3D5E8;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    padding: 0.2em 0 0.2em 0.5em;
+    width: 200px;
+}
+
+.y41b-cabecerafichaExp-InstructorExpediente span{	
+	font-weight: bold;
+	margin-left: 0.5em !important;
+	font-size: 1.1em;
+}
+
+.y41b-cabecerafichaExp-MonitorExpediente{
+	 background-color: #C3D5E8;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    padding: 0.2em 0 0.2em 0.5em;
+    width: 200px;
+}
+
+.y41b-cabecerafichaExp-MonitorExpediente span{	
+	font-weight: bold;
+	margin-left: 0.5em !important;
+	font-size: 1.1em;
+}
+
+.y41b-cabecerafichaExp-NumeroExpediente{
+    background-color: #42A2C2;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0 0.5em;
+    padding: 0.2em 0.7em 0.2em 0.7em;
+    min-width: 245px;
+}
+
+.y41b-cabecerafichaExp-NumeroExpediente span{	
+	font-weight: bold;
+	/*margin-left: 0.5em !important;*/
+	font-size: 1.1em;
+}
+
+.y41b-cabecerafichaExp-NumeroExpedienteTramite,
+.y41b-cabecerafichaExp-OrigenInspeccionTramite{
+    background-color: #42A2C2;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0.2em 0.7em 0.2em 0.7em;
+}
+
+.y41b-cabecerafichaExp-NumeroExpedienteTramite span,
+.y41b-cabecerafichaExp-OrigenInspeccionTramite span{	
+	font-weight: bold;
+	/*margin-left: 0.5em !important;*/
+	font-size: 1.1em;
+}
+
+.y41b-cabecerafichaExp-OrigenInspeccionTramite{
+	float: right;
+}
+
+.y41b-columLabelSanciones, .y41b-columLabelArbitraje
+{
+	float: left;
+    width: 12em;
+}
+
+
+.divNumeroExpediente {
+background-color: #42A2C2;
+border-radius: 10px 10px 10px 10px;
+color: white;
+font-size: 1.0em;
+font-weight: bold;
+margin-left: 0.5em;
+padding: 0.2em 0 0.2em 0.5em;
+width: 220px;
+float: left;
+}
+
+.divFaseExpediente {
+background-color: #C3D5E8;
+border-radius: 10px 10px 10px 10px;
+color: white;
+font-size: 1.0em;
+font-weight: bold;
+margin-left: 0.5em;
+padding: 0.2em 0 0.2em 0.5em;
+width: 185px;
+float: left;
+}
+
+.divUltimoTramite {
+background-color: #C3D5E8;
+border-radius: 10px 10px 10px 10px;
+color: white;
+font-size: 1.0em;
+font-weight: bold;
+margin-left: 0.5em;
+padding: 0.2em 0 0.2em 0.5em;
+width: 500px;
+float: left;
+}
+
+.divInstructor {
+background-color: #C3D5E8;
+border-radius: 10px 10px 10px 10px;
+color: white;
+font-size: 1.0em;
+font-weight: bold;
+margin-left: 0.5em;
+padding:0.2em 0 0.2em 0.5em;
+width: 325px;
+float: right;
+}
+
+.y4b_modalWaitIdazki{
+	display: none;
+}
+
+div.y4b_modalWait{
+/*	border: 2px solid red;*/
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 22px !important;
+	font-weight: bold !important;
+	padding: 0.7em 0em 0.3em 0em;
+	text-align: center;
+	color: #A8BBC6;
+	/*background-image: url("../images/fnd_gris.png");*/
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+
+div.y4b_modalWait img{
+/*border: 1px solid green;*/
+margin: -2px 0px 2px 20px;
+float:left;	
+}
+
+
+#y41bTabsDetalleSolicitudDIVEdicionInstructor{
+	float:left;
+	margin-left: 0.5em;
+	width:20px;
+}
+.y41b-columIzquierdaRemesas
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 40%;
+}
+.y41b-columLabelRemesa
+{
+	float: left;
+    width: 12em;
+}
+.y41b-3columIzquierdaRemesas
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 33%;
+}
+
+.y41b-4columIzquierdaRemesas
+{
+	float: left;
+	padding-bottom: 0.5em;
+	width: 59%;
+}
+
+
+
+.y41b-3columLabelRemesa
+{
+	float: left;
+    width: 9em;
+}
+.y41b-mailMultiple
+{
+	width: 21px;
+	height: 21px;
+	}
+.y41b-avisoMail
+{
+	color: #008abb;
+	font-style: italic;
+	font-weight:bold;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.y41b-cabecerafichaHistorica{
+	 background-color: #C3D5E8;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    padding: 0.2em 0 0.2em 0.5em;
+    width: 175px;
+}
+
+.y41b-cabecerafichaHistorica span{	
+	font-weight: bold;
+	margin-left: 0.5em !important;
+	font-size: 1.1em;
+}
+
+.y41b-myfontFichaHistorica
+{
+	background-color: #EBE8E9;
+	border-color: #EBE8E9;
+    border-style: solid;
+    widht: 5px;
+    color: #474647;
+	}
+
+#iframeModal_firma {
+	z-index: 16263 !important;
+}
+
+.y41b-actasInmovilizacion {
+	display: inline-block;
+	float: right;
+	margin: -20px 15px 0 0;
+}
+
+.y41b-actasInmovilizacion-linea {
+	font-size: 11px;
+    border-right: 1px solid #777;
+    color: #777;
+    padding-right: 5px;
+}
+
+.y41b-actasInmovilizacion-linea:last-child {
+	border: none;
+}
+
+.y41b-actasInmovilizacion-titulo {
+	font-weight: bold;
+}
+
+.y41b-actasInmovilizacion-unidades {
+	font-size: 18px !important;
+    font-weight: bold;
+}
+label.y41b-actasInmovilizacion-unidades {
+    color: #0990b4;
+    margin-right: 10px;
+}
+
+input.y41b-actasInmovilizacion-unidades {
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid #ccc;
+	margin-bottom: 0.5em;
+}
+
+input.y41b-actasInmovilizacion-unidades.read-only {
+	background: #ccc;
+}
+
+a#y41bActasDetalleCaracter-button {
+	display: inline-block;
+}
+
+input#y41bActasDetalleUnidadesOtros {
+	vertical-align: top;
+}
+
+#y41bEscritorio_BandejaInspecciones_ComboOrigen-button {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+#y41bBusquedaInspeccionesOrigen-button {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}

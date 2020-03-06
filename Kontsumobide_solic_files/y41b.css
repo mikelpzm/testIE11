@@ -1,0 +1,281 @@
+
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin:0; padding:0;list-style: none outside none;}
+a img,:link img,:visited img,form,fieldset {border:none}
+
+/* Hx */
+h1 { 
+	font-size:2.2em;
+	color:#0191c1;
+	display:block;
+	margin:0 0 0.5em 0;
+	padding:0 0 0.3em 0;
+	/* border-bottom:1px solid #cccccc; */
+	width: 100%;
+	text-align: right;	
+}
+h2 { font-size:1.8em; color:#000000; display:block; margin:1.5em 0 0 0; padding:0; }
+h3 { font-size:1.4em; color:#555555; display:block; margin:1.5em 0 0.5em 0; padding:0; }
+
+/* Parrafo */
+p { color:#000000; line-height:1.7em; margin:0; }
+
+/* Input deshabilitado */
+input.disabled { background-color: #D3D3D3; }
+
+/* GENERALES */
+.contenedor { 
+	width:95%; 
+	margin:0 auto; 
+	padding: 2em; 
+	background:#FFF;  
+}
+.cabecera {
+	margin-bottom: 7em;
+	width: 100%;
+	
+}
+.menu {
+	margin-top: 1em; 
+	margin-bottom: 1em;
+}
+.footer {
+	border-top:1px solid #DADADA;
+	clear:both;
+	color:#000000;
+	font-size:0.9em;
+	margin:2em 0 0;
+	padding:0.2em;
+	padding-bottom: 0em;
+	 height: 1.5em;
+	background: url("../images/y41b-fondo-pie.gif") no-repeat scroll left top #009999
+	background-size: cover;
+}
+.footer a {
+	color:#000;
+}	
+
+
+/*Posicionamiento a la derecha de los botones*/
+.right_buttons{ 
+	text-align:right;
+	margin-bottom:5px;
+}
+
+.formulario_legend { 
+	color:#000000 !important; 
+	font-size:1.2em;
+}
+
+.formulario_columna_cnt {
+	color:#666666; 
+	float:left; 
+	width:99%;
+}
+.formulario_linea_izda_float { 
+	margin-top: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+	float:left;
+}
+.formulario_linea_label { 
+	float: left;
+	width: 8em;
+}
+.formulario_linea_input { 
+	border:0.1em solid #D1D1D1;
+	color:#666666;
+	/*font-size:1.2em;*/ 
+	font-size:100%;
+	/*width: 15em; */
+}
+.floating_left_pad_right {
+	float:left;
+	padding-right:10px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-align:left;
+	margin-top:5px;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+	background: url("../../rup/custom-theme/images/ui-bg_glass_55_fffeda_1x400.png") repeat-x scroll 50% 50% #FFFEDA;
+    border: 1px solid #AAAAAA;
+}
+.y41b-language_root{
+	float: right !important; 
+	width: auto !important; 
+	position: absolute !important;
+	}
+.rup-tabs_loading
+{
+	height: 0em !important;
+	} 
+table,
+table tr,
+table tr td{
+	cursor:pointer;
+}
+table tr.nAllowed,
+table tr.nAllowed td{
+	color: red;
+	cursor: not-allowed!important;
+}
+table tr.destacadoRojo,
+table tr.destacadoRojo td{
+	color: red;
+}
+#cargando{
+	float: left;
+	width: 98.7%;
+	position: absolute;
+	top: 0;
+	height: 98.8%;
+	background: #fff ;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+#cargando .imagen{
+	float: left;
+	margin-top: 26%;
+	width: 100%;
+	background: url('../images/loading.gif') no-repeat 50% 50%;
+	height: 5em;
+
+}
+/** Combos evitar scroll
+PUEDE HABER PROVOCADO OTROS ERRORES COMPROBAR **/
+.ui-resizable , .ui-resizable .ui-dialog-content{
+	overflow: visible!important;
+}
+.ui-resizable {
+	padding-bottom:1em;
+}
+
+.ui-datepicker-trigger {
+	cursor: pointer;
+}
+
+.y41b-AccesoDenegado
+{
+	color: red;
+	font-weight:bold;
+	font-size: 18px;
+}
+.y41b-tree_sectores {
+height:300px;
+overflow:scroll;
+}
+.y41b-tree_productosServicios {
+height:300px;
+overflow:auto;
+}
+.y41b-tree_infracciones {
+height:300px;
+overflow:auto;
+}
+
+.y41b-tree_descriptores {
+height:300px;
+overflow:auto;
+}
+
+.elemento_noseleccionable a{
+	color: #E01B32 !important;
+}
+
+.clr{
+	clear:both;
+}
+
+.y41bSancionadosinSancionesFirmes{
+	cursor: default !important; 
+	float: right; 
+	margin-top: 1em; 
+	padding-right: 1.5em;
+}
+
+.y41bSancionEtiqueta {
+	float: right; 
+	margin-top: 0em; 
+	padding-right: 1.5em;
+}
+
+.y41bSancionEtiqueta a{
+	background-color: #FFFFFF !important;
+	cursor: pointer !important;
+}
+
+.y41bArbitrajeEtiqueta {
+	float: right; 
+	margin-top: 0em; 
+	padding-right: 1.5em;
+}
+
+.y41bArbitrajeEtiqueta a{
+	background-color: #FFFFFF !important;
+	cursor: pointer !important;
+}
+
+.y41b-aniadir_buttons {
+	cursor: pointer;
+}
+
+#y41bSOLRelacionarExpedientesPager_left {
+	display: none;
+}
+
+.y41b_input_readonly {
+	background-color:#EBE8E9;
+	border-color:#EBE8E9;
+	border-style:solid;
+}
+
+/* CALENDARIO ARBITRAJE*/
+#y41bCalendarAudienciasDiv .ui-datepicker-week-end a {
+	font-weight: normal !important; 
+	background:#FFC0CB none no-repeat scroll 50% 50% !important; 
+	border:0.1em solid red !important; 
+	color:black !important;
+}
+#y41bCalendarAudienciasDiv .ui-datepicker-today a { 
+	font-weight: normal !important; 
+	background:#DDE7FF none no-repeat scroll 50% 50% !important; 
+	border:0.1em solid #195FFE !important; 
+	color:black !important; 
+}
+#y41bCalendarAudienciasDiv .ui-datepicker-title {
+	color: #222222;
+}
+#y41bCalendarAudienciasDiv .ui-icon {
+	width: 16px;
+	height: 16px;
+    background-image: url('../images/ui-icons_454545_256x240.png');
+}
+#y41bCalendarPruebasDiv .ui-datepicker-week-end a {
+	font-weight: normal !important; 
+	background:#FFC0CB none no-repeat scroll 50% 50% !important; 
+	border:0.1em solid red !important; 
+	color:black !important;
+}
+#y41bCalendarPruebasDiv .ui-datepicker-today a { 
+	font-weight: normal !important; 
+	background:#DDE7FF none no-repeat scroll 50% 50% !important; 
+	border:0.1em solid #195FFE !important; 
+	color:black !important; 
+}
+#y41bCalendarPruebasDiv .ui-datepicker-title {
+	color: #222222;
+}
+#y41bCalendarPruebasDiv .ui-icon {
+	width: 16px;
+	height: 16px;
+    background-image: url('../images/ui-icons_454545_256x240.png');
+}
+
+div.y41b-row50 {
+	width: 49%;
+	float: left;
+  	margin: 0em 0.1em 0.1em 0.5em;
+}
